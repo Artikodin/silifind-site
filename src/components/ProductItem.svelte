@@ -22,6 +22,13 @@
     background: #2f3136;
 
     margin: 0 auto 50px auto;
+
+    cursor: pointer;
+    transition: box-shadow 0.35s 0s ease;
+  }
+
+  .product-item:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
   }
 
   img {
