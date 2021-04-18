@@ -3,7 +3,7 @@
 
   export let navItems = [];
 
-  let openedDropdown = "GPU";
+  let openedDropdown = null;
 
   const handleMouseOver = title => {
     openedDropdown = title;
@@ -35,12 +35,6 @@
 </nav>
 
 <style>
-  h1 {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 36px;
-  }
-
   ul {
     list-style: none;
     display: flex;
