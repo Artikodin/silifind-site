@@ -6,5 +6,5 @@
 
 <PageLayout>
   <CaptationLayout />
-  <ProductList />
+  <ProductList on:click />
 </PageLayout>

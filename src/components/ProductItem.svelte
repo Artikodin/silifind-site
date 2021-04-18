@@ -2,7 +2,7 @@
   import Button from "./Button.svelte";
 </script>
 
-<div class="product-item">
+<div class="product-item" on:click>
   <img src="https://picsum.photos/400/400" alt="" />
   <div class="annexe">
     <h3>Ryzen 7 5800X</h3>

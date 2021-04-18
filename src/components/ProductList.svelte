@@ -6,7 +6,7 @@
 
 <div>
   {#each productItems as productItems, i}
-    <ProductItem />
+    <ProductItem on:click />
   {/each}
 </div>
 
