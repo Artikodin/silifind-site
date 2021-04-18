@@ -1,4 +1,8 @@
-<a href="#"> J'en profite </a>
+<a
+  href="https://www.cdiscount.com/informatique/cartes-graphiques/msi-carte-graphique-geforce-gt-710-2go-ddr3/f-10767-gt7102gd3hlp.html#mpos=0|cd"
+>
+  J'en profite
+</a>
 
 <style>
   a {
