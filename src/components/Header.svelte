@@ -1,17 +1,13 @@
 <script>
+  import Navigation from "./Navigation.svelte";
+
   let navItems = [{ title: "GPU" }, { title: "CPU" }, { title: "CONSOLE" }];
 </script>
 
 <header>
   <div>
     <h1>Silifind</h1>
-    <nav>
-      <ul>
-        {#each navItems as { title }, i}
-          <li>{title}</li>
-        {/each}
-      </ul>
-    </nav>
+    <Navigation {navItems} />
   </div>
 </header>
 
@@ -38,30 +34,5 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-  }
-
-  h1 {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 36px;
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-  }
-
-  li {
-    margin-right: 30px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 18px;
-
-    cursor: pointer;
-    transition: color 0.2s 0s ease;
-  }
-
-  li:hover {
-    color: var(--header-secondary);
   }
 </style>
